@@ -2,12 +2,12 @@ cmake_minimum_required(VERSION 2.8.3)
 
 include(cmake/HunterGate.cmake)
 HunterGate(
-    URL "https://github.com/lsolanka/hunter/archive/v0.19.210-11.tar.gz"
-    SHA1 "ae63309e76bcad9748e236a28dc9fbd217811482"
+    URL "https://github.com/ruslo/hunter/archive/v0.23.28.tar.gz"
+    SHA1 "6c79b36253a8e8bcba48927e9f3be65a3a81e6ec"
 )
 
 project(angles)
 
-hunter_add_package(ros-catkin)
+hunter_add_package(catkin)
 
 add_subdirectory(angles)
